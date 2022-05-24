@@ -10,12 +10,13 @@ p {
     text-indent: 30px;
 }
 
-h1 {
+.tituloContato {
     background-color: #e1edf2;
     padding: 10px;
+    font-size: 32px;
 }
 
-h2 {
+.subtitulo {
     border-bottom: 2px solid #000;
 }
 
@@ -29,4 +30,46 @@ figure {
 
 figcaption {
     margin-top: 10px;
+}
+
+.matriz-musicdot {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.familia-tupfeln {
+    width: 275px;
+    float: right;
+    margin-top: 0;
+}
+
+figure img {
+    width: 100%;
+}
+
+.contato__subtitulo {
+    display: inline;
+}
+
+.contato__secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contato__secao--telefone {
+    margin-left: 32px;
+}
+
+.contato__info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato__info-titulo, .contato__info-descricao {
+    display: inline;
+}
+
+.contato__info-descricao {
+    margin-left: 10px;
 }
