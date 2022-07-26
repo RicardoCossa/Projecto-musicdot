@@ -165,5 +165,42 @@
     .planos__card img {
         width: 2.5rem;
     }
+
+    .plano__titulo, .plano__titulo + p {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    .valor--destaque {
+        font-size: 2.6rem;
+        font-weight: 700;
+    }
+
+    .plano--destaque {
+        font-size: .6rem;
+    }
+
+    .cards__botao {
+        font-size: 1.1rem;
+        transition: .25s;
+    }
+
+    .planos > p {
+        font-size: .9rem;
+        font-weight: 600;
+        line-height: 18px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .planos__titulo {
+        font-size: 1.2rem;
+    }  
+    
+    .plano--destaque {
+        font-size: .9rem;
+        width: 10rem;
+        transform: translate(-50%, -75%);
+    }
 }
 
