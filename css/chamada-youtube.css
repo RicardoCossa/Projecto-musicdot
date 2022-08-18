@@ -116,3 +116,39 @@
         font-size: .8rem;
     }
 }
+
+@media(min-width: 1200px) {
+    .youtube__informacao {
+        padding: 4rem 20%;
+    }
+
+    .--icone-youtube::before {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .canal__titulo {
+        font-size: 2rem;
+        margin-bottom: .4rem;
+    }
+
+    .canal__texto {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .video__descricao {
+        width: 75%;
+        text-align: left;
+    }
+
+    .descricao__titulo {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .descricao__texto {
+        font-size: .9rem;
+    }
+}
