@@ -47,3 +47,21 @@
     background-size: 1.2rem;
     background-repeat: no-repeat;
 }
+
+.app__download--android {
+    background-image: url(../img/icone-android-logo.svg);
+    background-position: left .5rem center;
+    padding-left: 1.4rem;
+}
+
+.app__download--ios {
+    background-image: url(../img/icone-apple-logo.svg);
+    background-position: left 1rem top .4rem;
+}
+
+.aplicativo--icone {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: .2rem;
+    vertical-align: middle;
+}
